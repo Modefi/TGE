@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "presale-dapp",
+      "script": "server",
+      "exec_mode": "cluster_mode",
+      "instances": 2,
+      "autorestart": true,
+      "watch": false,
+      "time": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
